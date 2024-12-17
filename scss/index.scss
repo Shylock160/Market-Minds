@@ -1,24 +1,24 @@
 //Reset
 
-@use 'components/reset';
+@forward 'components/reset';
 
 // variables & functions
-@use 'components/function';
-@use 'variables';
+@forward 'components/function';
+@forward 'variables';
 
 // base & layout
-@use 'base';
-@use 'components/breakpoint';
-@use 'components/grid';
+@forward 'base';
+@forward 'components/breakpoint';
+@forward 'components/grid';
 
 // colors
-@use 'components/colors';
+@forward 'components/colors';
 
 // components (button, card, navbar)
-@use 'components/card';
-@use 'components/button';
-@use 'components/navbar';
-@use 'components/badge';
+@forward 'components/card';
+@forward 'components/button';
+@forward 'components/navbar';
+@forward 'components/badge';
 
 // utilities (margin, padding, opacity)
-@use 'components/utilities';
+@forward 'components/utilities';
