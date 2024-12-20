@@ -1,3 +1,5 @@
+@use 'components/colors' as C;
+
 header{
     background-image: url(../images/Bannar.jpg);
     background-size: cover;
@@ -22,3 +24,7 @@ header{
 .cart > ul > li{
     margin-left: 10px;
 }
+
+// nav-bar{
+//     background-color: lighten(map-get(C.$colors, Dark), 90%);
+// }
