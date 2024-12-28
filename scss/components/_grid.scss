@@ -1,0 +1,10 @@
+@use 'variables' as V;
+
+main{
+    margin-inline: 5%;
+    margin-top: 20px;
+
+    @media (max-width: V.$mobile) {
+        background-color: red;
+    }
+}
