@@ -1,10 +1,17 @@
 @use 'variables' as V;
 
+// glass section
 main{
     margin-inline: 5%;
-    margin-top: 20px;
+    a{
+        text-decoration: none;
+    }
 
     @media (max-width: V.$mobile) {
-        background-color: red;
     }
 }
+
+.text-heading{
+    margin-top: 2rem;
+}
+

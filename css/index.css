@@ -14,14 +14,18 @@ img, video {
   height: auto;
 }
 
+*.love {
+  margin-bottom: 20px;
+}
+
 main {
   margin-inline: 5%;
-  margin-top: 20px;
 }
-@media (max-width: 37.5rem) {
-  main {
-    background-color: red;
-  }
+main a {
+  text-decoration: none;
+}
+.text-heading {
+  margin-top: 2rem;
 }
 
 header {
@@ -43,4 +47,14 @@ header {
 
 .cart > ul > li {
   margin-left: 10px;
+}
+
+.heading-text {
+  text-align: center;
+  margin-block: 30px;
+}
+
+.heading-text {
+  background-color: #212529;
+  color: #F8FAFC;
 }

@@ -25,6 +25,14 @@ header{
     margin-left: 10px;
 }
 
-// nav-bar{
-//     background-color: lighten(map-get(C.$colors, Dark), 90%);
-// }
+.heading-text{
+    text-align: center;
+    margin-block: 30px;
+}
+
+.heading-text{
+    background-color: map-get(C.$colors, "Dark");
+    color: map-get(C.$colors, "Light");
+}
+
+// phone section
